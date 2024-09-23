@@ -1,0 +1,155 @@
+header {
+    font-size: 22px;
+    font-family: Arial;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.brand-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+header span {
+    margin-right: 15px;
+}
+article {
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial;
+}
+.bi-lightning-fill {
+    color:gold;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    font-family: Arial;
+}
+.footer-title {
+    font-size: 24px;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 50px;
+}
+.subscribe {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.email {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    background-color: lightgray;
+    color:black;
+    font-family: Arial;
+    text-align: left;
+}
+.btn-subscribe {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial;
+    background-color: darkslategrey;
+    margin-left: 10px;
+}
+.services {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+}
+.footer-brand-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+aside {
+    padding-top: 20px;
+}
+aside span {
+    padding: 2px;
+}
+.service-title {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.service-title~span {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+address span {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section {
+    margin-top: 20px;
+}
+main {
+    height: 450px;
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    padding-bottom: 50px;
+}
+.women-fashion {
+    background-image: url("../../public/images/women-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.7;
+}
+.women-fashion:hover {
+    opacity: 1;
+}
+.men-fashion {
+    background-image: url("../../public/images/men-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.7;
+}
+.men-fashion:hover {
+    opacity: 1;
+}
+.kid-fashion {
+    background-image: url("../../public/images/kids-fashion.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.7;
+}
+.kid-fashion:hover {
+    opacity: 1;
+}
+.main-title {
+    font-size: 40px;
+    color:white;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 20px;
+    text-shadow: 5px 5px 2px black;
+}
+.btn-shop {
+    background-color: white;
+    color:black;
+    padding: 10px;
+    width: 120px;
+    font-size: 18px;
+    font-family: Aria;
+    text-align: center;
+}
